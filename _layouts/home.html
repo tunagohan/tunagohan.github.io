@@ -34,10 +34,10 @@ layout: default
             <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
               {{ site.theme_settings.str_continue_reading }}
             </a>-->
-            {% if post.excerpt != post.content %}
-              <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-            {% endif %}
           </div>
+          {% if post.excerpt != post.content %}
+            <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+          {% endif %}
       </span>
     </div>
     {% endfor %}
