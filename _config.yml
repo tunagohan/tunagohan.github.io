@@ -1,0 +1,90 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://tunagohan.github.io"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  title: tunagohan Engineer Blog
+  avatar: assets/img/sagiri.svg
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "tunagohanのエンジニアリング日記"
+
+  # Header and footer text
+  header_text: >
+    <p>つなまろのブログ</p>
+  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  footer_text: >
+    <p>© Copyright 2018 tunagohan</p>
+
+  # Icons
+  rss: false
+  email_address: "kazuxtuna@gmail.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "tunagohan"
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  twitter: "mayoxtuna"
+  vimeo:
+  wordpress:
+  youtube:
+
+  # Scripts / Features
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true
+  portfolio: false
+  search: true
+  tags: true
+
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
