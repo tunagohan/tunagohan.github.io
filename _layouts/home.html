@@ -35,12 +35,12 @@ layout: default
               {{ site.theme_settings.str_continue_reading }}
             </a>-->
           </div>
+          <div class="read-more">
+            {% if post.excerpt != post.content %}
+              <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            {% endif %}
+          </div>
       </span>
-      <div class="read-more">
-        {% if post.excerpt != post.content %}
-          <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
-        {% endif %}
-      </div>
     </div>
     {% endfor %}
   </div>
