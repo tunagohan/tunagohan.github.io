@@ -13,7 +13,7 @@ layout: default
   <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
-      {% if post.thumbnail %} 
+      {% if post.thumbnail %}
       <div class="post-img">
          <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
       </div>
@@ -34,6 +34,9 @@ layout: default
             <!--<a class="button" href="{{ post.url | prepend: site.baseurl }}">
               {{ site.theme_settings.str_continue_reading }}
             </a>-->
+            {% if post.excerpt != post.content %}
+              <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+            {% endif %}
           </div>
       </span>
     </div>
