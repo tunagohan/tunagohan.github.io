@@ -88,10 +88,3 @@ sass:
 plugins: [jekyll-paginate, jekyll-seo-tag]
 theme: type-on-strap
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "vendor"]
-
-gems:
-  - jemoji
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
