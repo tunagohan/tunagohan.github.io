@@ -85,6 +85,9 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-theme: type-on-strap
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-remote-theme
+remote_theme: sylhare/Type-on-Strap
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png", "vendor"]
