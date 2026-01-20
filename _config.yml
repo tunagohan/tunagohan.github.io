@@ -4,22 +4,22 @@ url: "https://tunagohan.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
-  title: tunagohan Engineer Blog
+  title: tunagohan
   avatar: assets/img/sagiri.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "tunagohanのエンジニアリング日記"
+  description: "tunagohan"
 
   # Header and footer text
   header_text: >
-    <p>つなまろのブログ</p>
+    <p>つな</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-    <p>© Copyright 2018 tunagohan</p>
+    <p>© Copyright 2026 tunagohan</p>
 
   # Icons
   rss: false
-  email_address: "kazuxtuna@gmail.com"
+  email_address: ""
   behance:
   bitbucket:
   dribbble:
@@ -37,7 +37,7 @@ theme_settings:
   stack_exchange:
   steam:
   tumblr:
-  twitter: "mayoxtuna"
+  twitter:
   vimeo:
   wordpress:
   youtube:
