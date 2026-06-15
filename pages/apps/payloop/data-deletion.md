@@ -30,7 +30,8 @@ PayLoop Plus の購入履歴やサブスクリプション情報は、Google Pla
 
 PayLoop に関するデータ削除の問い合わせは、以下からご連絡ください。
 
-- GitHub Issues: https://github.com/tunagohan/tunagohan.github.io/issues
+- メール: support@tunagohan.dev
+- サポートページ: https://tunagohan.github.io/apps/payloop/support/
 
 お問い合わせの際は、PayLoop に関する問い合わせであることを記載してください。
 

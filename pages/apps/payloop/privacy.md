@@ -117,4 +117,5 @@ MVP では、削除した支出項目やラベルの復元機能は提供しま�
 
 ## 11. お問い合わせ
 
-- GitHub Issues: https://github.com/tunagohan/tunagohan.github.io/issues
+- メール: support@tunagohan.dev
+- サポートページ: https://tunagohan.github.io/apps/payloop/support/
